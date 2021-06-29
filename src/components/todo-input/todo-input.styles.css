@@ -1,0 +1,23 @@
+.input__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo__input {
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.btn--add {
+    background-color: #008CBA;
+}
+
+
+
+/* 
+TODO: Add btn and all utility style to index.css (General styling)
+*/

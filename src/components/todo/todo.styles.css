@@ -1,0 +1,29 @@
+/* todo__box contains the todo text with Edit and Delete button  */
+.todo__box {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo__text {
+    position: relative;
+    height: 30px;
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* EDIT BUTTON */
+.btn--edit {
+    background-color: #4CAF50;
+}
+
+  /* DELETE BUTTON */
+.btn--delete {
+    background-color: #f44336;
+}
